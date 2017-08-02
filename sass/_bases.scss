@@ -1,0 +1,35 @@
+body{
+    font-family: $body_font;
+    a{
+        text-decoration: none;
+    }
+
+}
+
+header{
+    padding-top: 20px;
+    .centrarLogo{
+        margin-left: 33%;
+    }
+
+    .iconoLupa{
+        position: absolute;
+        margin-left: 57%;
+        width: 20px;
+        margin-top: -38px;
+        font-size: 15px;
+        color: $color-titulos;
+    }
+}
+
+nav{
+    .centrar{
+        padding-left: 29%;
+        font-size: $size-link-menu;
+        text-align: center;
+    }
+
+    .enlaceManu{
+         color: $color-titulos;
+    }
+}
