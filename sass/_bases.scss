@@ -33,3 +33,18 @@ nav{
          color: $color-titulos;
     }
 }
+
+.sec1a{
+    .tituloSec1{
+        color: $color-titulos;
+    }
+
+    h6{
+        color: $color-textos;
+    }
+
+    .profile{
+        color: $fechas;
+        font-weight: $tipograf-l;
+    }
+}
