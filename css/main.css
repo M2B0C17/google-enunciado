@@ -5803,9 +5803,11 @@ Gris Claro fecha: #5f6368
 Gris Texto : #414549
 Azul : #4285f4
 */
-body {
+* {
   font-family: "Montserrat", sans-serif; }
-  body a {
+  * a {
+    text-decoration: none; }
+  * a:hover {
     text-decoration: none; }
 
 header {
@@ -5840,8 +5842,6 @@ nav .enlaceManu {
 
 .sec2 {
   /* Parte 2 */ }
-  .sec2 a:hover {
-    text-decoration: none; }
   .sec2 .hora {
     color: #5f6368;
     font-weight: lighter;
@@ -5852,7 +5852,7 @@ nav .enlaceManu {
     color: #414549;
     text-align: justify; }
   .sec2 .cajaNewsletter {
-    background-color: #D1D1D1; }
+    background-color: #E8E8E8; }
   .sec2 .enlaceMore {
     color: #4285f4; }
   .sec2 .bottom {
@@ -5863,5 +5863,24 @@ nav .enlaceManu {
   .sec2 .left {
     margin-left: -24px;
     margin-top: 5px; }
+
+.sec3 .grozorHr {
+  margin-top: 80px;
+  height: 4px;
+  background-color: #4285f4;
+  margin-bottom: 80px; }
+.sec3 .bottomSec3 {
+  padding-bottom: 50px; }
+.sec3 .tituloSec3 {
+  color: #424242; }
+.sec3 .textosSec3 {
+  color: #414549;
+  text-align: justify; }
+.sec3 .hora {
+  color: #5f6368;
+  font-weight: lighter;
+  padding-top: 20px; }
+.sec3 .fa {
+  font-size: 15px; }
 
 /*# sourceMappingURL=main.css.map */

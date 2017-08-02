@@ -1,6 +1,9 @@
-body{
+*{
     font-family: $body_font;
     a{
+        text-decoration: none;
+    }
+    a:hover{
         text-decoration: none;
     }
 }
@@ -54,9 +57,6 @@ nav{
 }
 
 .sec2{
-    a:hover{
-        text-decoration: none;
-    }
 
     .hora{
         color: $fechas;
@@ -74,7 +74,7 @@ nav{
     }
 
     .cajaNewsletter{
-        background-color: #D1D1D1;
+        background-color: #E8E8E8;
     }
     /* Parte 2 */
 
@@ -94,5 +94,37 @@ nav{
     .left{
         margin-left: -24px;
         margin-top: 5px;
+    }
+}
+
+.sec3{
+    .grozorHr{
+        margin-top: 80px;
+        height: $grozor-hr;
+        background-color: $color-azul;
+        margin-bottom: 80px;
+    }
+
+    .bottomSec3{
+        padding-bottom: 50px;
+    }
+
+    .tituloSec3{
+        color: $color-titulos;
+    }
+
+    .textosSec3{
+        color: $color-textos;
+        text-align: justify;
+    }
+
+    .hora{
+        color: $fechas;
+        font-weight: $tipograf-l;
+        padding-top: 20px;
+    }
+
+    .fa{
+        font-size: $size-link-menu;
     }
 }
