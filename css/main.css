@@ -5899,4 +5899,11 @@ nav .enlaceManu {
   .sec4 .leftSec4 {
     margin-left: -78px; }
 
+footer {
+  padding-bottom: 20px; }
+  footer .tituloFooter {
+    color: #424242;
+    font-size: 15px;
+    margin-top: -29px; }
+
 /*# sourceMappingURL=main.css.map */

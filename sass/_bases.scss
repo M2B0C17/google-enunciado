@@ -153,3 +153,13 @@ nav{
         margin-left: -78px;
     }
 }
+
+footer{
+    padding-bottom: 20px;
+    
+    .tituloFooter{
+        color: $color-titulos;
+        font-size: $size-link-menu;
+        margin-top: -29px;
+    }
+}
