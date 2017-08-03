@@ -5897,7 +5897,8 @@ nav .enlaceManu {
   .sec4 .enlaceSec4 {
     color: #414549; }
   .sec4 .leftSec4 {
-    margin-left: -78px; }
+    margin-left: -78px;
+    margin-top: 40px; }
 
 footer {
   padding-bottom: 20px; }
