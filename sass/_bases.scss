@@ -1,10 +1,13 @@
 *{
     font-family: $body_font;
-    a{
+    a, ul, li{
         text-decoration: none;
+        list-style-type: none;
     }
-    a:hover{
+    a:hover, ul:hover, li:hover{
         text-decoration: none;
+        list-style-type: none;
+        color: $color-titulos;
     }
 }
 
@@ -126,5 +129,27 @@ nav{
 
     .fa{
         font-size: $size-link-menu;
+    }
+}
+
+.sec4{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .tituloSec4{
+        color: $color-titulos;
+    }
+
+    .textosSec4{
+        color: $color-textos;
+        text-align: justify;
+    }
+
+    .enlaceSec4{
+        color: $color-textos;
+    }
+
+    .leftSec4{
+        margin-left: -78px;
     }
 }

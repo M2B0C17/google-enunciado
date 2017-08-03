@@ -5805,10 +5805,13 @@ Azul : #4285f4
 */
 * {
   font-family: "Montserrat", sans-serif; }
-  * a {
-    text-decoration: none; }
-  * a:hover {
-    text-decoration: none; }
+  * a, * ul, * li {
+    text-decoration: none;
+    list-style-type: none; }
+  * a:hover, * ul:hover, * li:hover {
+    text-decoration: none;
+    list-style-type: none;
+    color: #424242; }
 
 header {
   padding-top: 20px; }
@@ -5882,5 +5885,18 @@ nav .enlaceManu {
   padding-top: 20px; }
 .sec3 .fa {
   font-size: 15px; }
+
+.sec4 {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .sec4 .tituloSec4 {
+    color: #424242; }
+  .sec4 .textosSec4 {
+    color: #414549;
+    text-align: justify; }
+  .sec4 .enlaceSec4 {
+    color: #414549; }
+  .sec4 .leftSec4 {
+    margin-left: -78px; }
 
 /*# sourceMappingURL=main.css.map */
